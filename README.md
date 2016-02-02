@@ -1,4 +1,5 @@
 # Learning-PhoneGap
+<img src="http://i1.wp.com/modernweb.com/wp-content/uploads/2013/03/Build-Diagram-520.png?fit=520%2C400"></img><br>
 Learning PhoneGap From Zero To Hero
 <ol>
 <li>Chapter-1 - <a href="https://github.com/PUSRISTEK/Learning-PhoneGap/blob/master/Chapter1-Apa%20itu%20PhoneGap.md">Apa Itu PhoneGap?</a></li>
