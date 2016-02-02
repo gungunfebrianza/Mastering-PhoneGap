@@ -61,11 +61,20 @@ akan kita gunakan untuk melakukan pencarian menggunakan method <i>contacts.find(
 <p>Lalu <i>clone()</i> method dapat kita gunakan untuk kloning kontak yang ada dimemori begitu juga untuk menghapus sebuah kontak kita bisa menggunakan method <i>remove().</i></p>
 
 <h4>2. Working With Camera</h4>
-<p>Hampir sebagian besar smartphones sudah mendukung built-in camera. PhoneGap API memiliki dua jalan untuk melakukan capture sebuah gambar salah satunya akses camera melalui <i>camera</i> object, yang kedua menggunakan <i>media capture</i> API. Secara spesifik menggunakan <i>camera.getPicture()</i> untuk mengambil sebuah foto menggunakan camera atau menerima foto yang berasal dari devica photo album. </p>
+<p>Hampir sebagian besar smartphones sudah mendukung built-in camera. PhoneGap API memiliki dua jalan untuk melakukan capture sebuah gambar salah satunya akses camera melalui <i>camera</i> object, yang kedua menggunakan <i>media capture</i> API. Secara spesifik yaitu menggunakan <i>camera.getPicture()</i> untuk mengambil sebuah foto menggunakan camera atau menerima foto yang berasal dari device photo album. Kita juga bisa memilih agar camera menyediakan <b>Base64-encoded photo image (default)</b> atau lokasi file suatu image yang bisa kita gunakan
+untuk render sebuah image, post image sebagai sebuah data ke kesebuah remote server, atau menyimpannya secara lokal.</p>
 
 <h4>3. Working With Geolocation</h4>
+<p>Hampir sebagian besar smartphones juga sudah memiliki kemampuan geolocation, dengan GPS sebuah smartphones bisa mendapatkan posisi latitude dan longtitude posisi saat ini secara akurat. <i>Geolocation</i> API pada phonegap membuat kita bisa mengetahui posisi device saat ini (latitude, longtitude dan sebagian lagi sudah mendukung altitude), selain itu bisa juga kita gunakan untuk melacak pergerakan sebuah device.</p>
+
 <h4>4. Working With Media Files</h4>
+<p>Phonegap memiliki <i>Media Capture</i> API yang bisa kita gunakan untuk melakukan capture data analog audio dan video, seperti merekam suara, play, pause, dan stop sebuah file media. Dengan ini kita bisa membuat sebuah mobile application yang memiliki kemampuan untuk merekam audio dan video</p>
+
 <h4>5. Working With Storage Options</h4>
+<p>Karena kita sudah menggunakan HTML5 kita bisa menggunakan SQLite untuk menyimpan data secara lokal yang selanjutnya bisa kita gunakan untuk melakukan singkronisasi data antara device dengan remote database. Mobile Application yang kita buat bisa menggunakan AJAX untuk memanggil data tertentu dalam sebuah remote database kemudian memanfaatkan JSON untuk mengirim dan menyimpanya kedalam SQLite didevice yang kita miliki.</p>
+
+<h3>Quick Overview of The API</h3>
+<p></p>
 
 <h3>Build & Testing PhoneGap Application</h3>
 <p>[API] Application Programming Interface milik PhoneGap didesain agar bisa berkomunikasi dengan hardware dalam sebuah mobile device. Ada banyak sekali cara untuk membangun dan menguji aplikasi phonegap yang kita buat. Kabar bagusnya adalah kita cukup menggunakan satu codebase saja untuk membuat sebuah package yang bisa digunakan disetiap platform. 
