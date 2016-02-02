@@ -28,3 +28,17 @@ Ada banyak cara untuk menguji mobile aplikasi yang kita buat baik itu menggunaka
 Ini artinya kita tetap memerlukan sekumpulan software development untuk masing masing plafrom. Meskipun begitu mengembangkan mobile aplikasi dengan phonegap kita tetap menggunakan satu codebase saja.</p>
 
 <h3>The Adobe PhoneGap Build Service</h3>
+<p>PhoneGap sudah dilengkapi adobe service & extension yang membuat kapabilitas PhoneGap bisa lebih powerful. Salah satunya adalah Adobe PhoneGap Service yang membuat kita bisa menguji aplikasi mobile yang kita buat tanpa harus melakukan instalasi seluruh native SDK versi terakhir dan membeli seluruh device agar kita bisa menguji aplikasi mobile yang kita buat satu persatu, sebab adobe sudah menyediakan semua hal yang kita butuhkan dan prosesnya akan dilakukan secara cloud.</p>
+<p>Masalah seperti munculnya OS versi terbaru, SDK Versi terbaru, mobile device terbaru yang bisa muncul setiap bulan kini tidak akan lagi menjadi duri tajam yang menusuk. Code yang akan kita buat tetap berada dalam operasi standar yang akan berjalan diseluruh platform. Semua ini adobe tawarkan melalui layanan three-tier plan yang bisa kita akses di : build.phonegap.com/plans. Layanan ini (Adobe PhoneGap Build Service) bisa kita gunakan agar kita tidak perlu melakukan instalasi software development seperti xcode untuk membuat sebuah mobile application dengan PhoneGap. Layanan ini akan membantu anda untuk membuat sebuah mobile application secara cloud.
+sebelum kita menggunakan Adobe PhoneGap Build Service selanjutnya kita akan melakukan instalasi phonegap.</p>
+
+<h3>Instalasi PhoneGap</h3>
+<p>Kita membutuhkan PhoneGap Dekstop Application yang menyediakan layanan drag and drop untuk membuat sebuah phonegap application. Ini hanya sebagai alternatif bagi mereka yang menginginkan pengembangan mobile aplikasi secara visual, meskipun begitu kita tetap bisa menggunakan phonegap command line interface untuk membuat mobile application.</p>
+<p>Untuk OS Windows silahkan download disini :</p>
+<p><a href="https://github.com/phonegap/phonegap-app-desktop/releases/download/0.2.1/PhoneGapSetup-win32.exe">Download</a></p>
+<p>Download dan lakukan instalasi sampai selesai.</p>
+
+```javascript
+var s = "JavaScript syntax highlighting";
+alert(s);
+```
