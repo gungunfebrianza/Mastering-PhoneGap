@@ -2,24 +2,70 @@
 
 <p>PhoneGap adalah sebuah project open source yang digunakan untuk membuat sebuah mobile application. Dengan PhoneGap kita bisa menggunakan web technology (HTML, CSS & Javascript) untuk membuat sebuah mobile application. HTML, CSS dan Javascript akan diubah menjadi suatu package yang bisa digunakan diberbagai device yang memiliki platform yang berbeda-beda.</p>
 
-<p>PhoneGap memiliki Foreign Function Interface(FFI) yang bisa membantu kita untuk mengakses native features dari suatu device. Native Feature yang dimiliki oleh suatu platform seperti camera, gps, accelerometer, file dan sebagainya bisa kita akses menggunakan Javascript melalui interface FFI. Selain itu kita juga bisa mengakses Native User Interface yang dimiliki
+<p>PhoneGap memiliki Foreign Function Interface(FFI) yang bisa membantu kita untuk mengakses native features dari suatu device. Native Feature yang dimiliki oleh suatu platform seperti camera, geolocation, accelerometer, file dan sebagainya bisa kita akses menggunakan Javascript melalui interface FFI. Selain itu kita juga bisa mengakses Native User Interface yang dimiliki
 suatu platform menggunakan FFI. Misalkan untuk menampilkan sebuah dialog.</p>
 
 <p>Meskipun begitu membuat aplikasi dengan phonegap tidak sama dengan membangun sebuah website. Sebab filosofi phonegap adalah bagaimana caranya membuat sebuah web agar bisa berkomunikasi dengan sebuah hardware device. Kemudian jika kita membuat aplikasi dengan phonegap yang akan didistribusikan kedalam sebuah marketplace, diusahakan isinya jangan hanya berisi sebuah static webpage tanpa memanfaatkan kemampuan suatu API milik phonegap.
 sebab beberapa application store akan menolaknya disebabkan aplikasi mobile yang dibuat tidak memiliki nilai untuk ditampilkan di application store. Banyak sekali aplikasi mobile yang dibuat menggunakan phonegap sukses dimarketplace.</p>
 
 <h3>History</h3>
-<p>Phonegap dikembangkan oleh suatu perusahaan bernama Nitobi yang pada akhirnya diakuisisi oleh adobe, sebagai bagian dari suatu yang diakuisisi source code dari phonegap akhirnya didonasikan kepada [ASF] Apache Software Foundation yang membuat phonegap menjadi open source. Pertama kali dikenal dengan sebutan Apache Cordova.</p>
+<p>Phonegap pertama kali dikembangkan oleh iPhoneDevCamp pada kegiatan hackathon pada tahun 2008. Banyak sekali yang ikut berkontribusi mengembangkan phonegap sebab setiap iphone developer yang masih newbie pasti menggunakan <strong>Objective-C</strong>. Sementara tidak semua web developer memahami Objective-C. Satu pertanyaan universal yang mendorong teciptanya phonegap adalah apakah mungkin seseorang menciptakan sebuah framework yang
+bisa membantu web developer untuk menggunakan kemampuan HTML, CSS dan Javascript agar bisa berinteraksi dengan native device seperti iPhone, Blackberry, Android etc untuk mengakses native features yang dimiliki setiap native device? seperti camera, accelerometer, gyroscope dst.. </p>
+
+<p>Waktu terus berlalu akhirnya Phonegap terus dikembangkan oleh suatu perusahaan yang bernama Nitobi yang pada akhirnya diakuisisi oleh adobe, sebagai bagian dari suatu yang diakuisisi source code dari phonegap akhirnya didonasikan kepada [ASF] Apache Software Foundation yang membuat phonegap menjadi open source. Pertama kali dikenal dengan sebutan Apache Cordova.</p>
 <p>Banyak sekali pertanyaan tentang apa sih perbedaan phonegap dengan apache cordova?
 PhoneGap adalah Cordova + dengan layanan adobe yang membuat kapabilitasnya menjadi lebih luas sementara cordova bersifat independen</p>
 
 <h3>Foreign Function Interface</h3>
 <p>Sistem FFI yang disediakan membuat kita sebagai developer mampu membangun sebuah jembatan antara javascript dan native code untuk mengerjakan sebuah task. Sekumpulan Foreign Function ini dibundle didalam sebuah plug-ins meskipun begitu cordova atau phonegap sudah menyediakan beberapa fitur dasar dalam masing masing base package.</p>
-<p>PhoneGap menawar banyak sekali fitur yang dibutuhkan untuk mengembangkan sebuah mobile application, selanjutnya kita akan belajar menggunakan phonegap command line interface yang bita kita gunakan untuk membangun dan memelihara aplikasi phonegap melalui terminal. Dengan CLI pula kita bisa package dan compile mobile application yang telah kita buat.
+<p>PhoneGap menawar banyak sekali fitur yang dibutuhkan untuk mengembangkan sebuah mobile application, selanjutnya kita akan belajar menggunakan phonegap command line interface yang bita kita gunakan untuk membangun dan memelihara aplikasi phonegap melalui terminal. Dengan CLI pula kita bisa package dan compile mobile application yang telah kita buat
 untuk diuji coba baik itu menggunakan virtual emulator atau perangkat device asli. PhoneGap CLI adalah alat bantu yang bisa digunakan untuk mempersiapkan aplikasi yang kita buat sebelum didistribusikan dimarketplace seperti apple store atau google play.</p>
+
+<p>PhoneGap menawarkan beberapa kemampuan agar kita bisa mengakses native features seperti :</p>
+<ol>
+<li>Accelerometer</li>
+<li>Camera</li>
+<li>Compass</li>
+<li>Contacts</li>
+<li>Files</li>
+<li>Geolocation</li>
+<li>Media</li>
+<li>Network</li>
+<li>Notification(alert, sound, vibration)</li>
+<li>Storage</li>
+</ol>
+
+<p>Jika kita mengembangkan mobile application untuk platform iOS dan Android device kesempatan untuk memiliki semua fitur diatas besar. Meskipun begitu ada beberapa commonly native features yang tidak akan bisa kita gunakan dibeberapa platform jika kita mengembangkan aplikasi untuk blackberry, WebOS, Windows Phone7, Symbian dan sebagainya. Sebagai contoh pada windows phone 7 tidak disediakan fitur untuk mengakses camera, compass dan storage.</p>
 
 <h3>Supported Platform</h3>
 <p>PhoneGap application mempunyai kemampuan untuk berjalan dibanyak mobile platform dengan menggunakan 1 codebase. Dengan plugins kita bisa membuat PhoneGap project yang kita buat menjadi lebih baik lagi, karena didalam plugins terdapat sekumpulan script yang bisa kita gunakan untuk menambah fungsi-fungsi baru kedalam aplikasi mobile yang kita buat.</p>
+
+<h3>PhoneGap Capabilities</h3>
+<p>Jika kita ingin membuat mobile application yang kita buat bisa berinteraksi dengan sebuah remote web service misalkan sebuah RESTful API kita bisa menggunakan jQuery agar bisa memainkan AJAX, kemudian jika mobile application yang kita buat berjalan dengan harapan pada iPhone Device ini bukan berarti akan berjalan dengan sempurna juga di device lainya. Hal yang harus kita lakukan adalah mengujinya satupersatu.</p>
+
+<h4>Understanding The Basic of PhoneGap Application :</h4>
+<p>Kita akan membahas beberapa hal dasar yang bisa kita lakukan menggunakan phonegap.</p>
+
+<h4>1. Working With Contacts</h4>
+<p>List Contacts merupakan Ubiquitous Feature sebab pasti ada diseluruh smartphones. Ada beberapa method yang bisa kita pakai menggunakan PhoneGap diantaranya adalah :</p>
+<ul>
+<li>Untuk membuat sebuah contact kita bisa menggunakan method <i>create()</i></li>
+<li>Untuk menyimpan sebuah contact kita bisa menggunakan method <i>save()</i></li>
+<li>Untuk mencari sebuah contact kita bisa menggunakan method <i>find()</i></li>
+<li>Untuk menduplikasi sebuah contact kita bisa menggunakan method <i>clone()</i></li>
+<li>Untuk menghapus sebuah contact kita bisa menggunakan method <i>remove()</i></li>
+</ul>
+
+<p>Untuk membuat sebuah contact kita akan mengirimkan sebuah <b>Javascript Object Notation</b> ke method <i>contacts.create().</i> Informasi kontak akan disimpan didalam memori aplikasi namun jika ingin menyimpannya kedalam database maka kita akan menggunakan method <i>save().</i> PhoneGap API mendukung banyak sekali property untuk membuat sebuah field pada kontak seperti untuk menampilkan name, nickname, phone number, email addreses, birthday, gender, photos dan sebagainya yang selanjutnya
+akan kita gunakan untuk melakukan pencarian menggunakan method <i>contacts.find()</i> untuk mendapatkan user yang dikehendaki.</p>
+<p>Lalu <i>clone()</i> method dapat kita gunakan untuk kloning kontak yang ada dimemori begitu juga untuk menghapus sebuah kontak kita bisa menggunakan method <i>remove().</i></p>
+
+<h4>2. Working With Camera</h4>
+<p>Hampir sebagian besar smartphones sudah mendukung built-in camera. PhoneGap API memiliki dua jalan untuk melakukan capture sebuah gambar salah satunya akses camera melalui <i>camera</i> object, yang kedua menggunakan <i>media capture</i> API. Secara spesifik menggunakan <i>camera.getPicture()</i> untuk mengambil sebuah foto menggunakan camera atau menerima foto yang berasal dari devica photo album. </p>
+
+<h4>3. Working With Geolocation</h4>
+<h4>4. Working With Media Files</h4>
+<h4>5. Working With Storage Options</h4>
 
 <h3>Build & Testing PhoneGap Application</h3>
 <p>[API] Application Programming Interface milik PhoneGap didesain agar bisa berkomunikasi dengan hardware dalam sebuah mobile device. Ada banyak sekali cara untuk membangun dan menguji aplikasi phonegap yang kita buat. Kabar bagusnya adalah kita cukup menggunakan satu codebase saja untuk membuat sebuah package yang bisa digunakan disetiap platform. 
@@ -37,8 +83,3 @@ sebelum kita menggunakan Adobe PhoneGap Build Service selanjutnya kita akan mela
 <p>Untuk OS Windows silahkan download disini :</p>
 <p><a href="https://github.com/phonegap/phonegap-app-desktop/releases/download/0.2.1/PhoneGapSetup-win32.exe">Download</a></p>
 <p>Download dan lakukan instalasi sampai selesai.</p>
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
