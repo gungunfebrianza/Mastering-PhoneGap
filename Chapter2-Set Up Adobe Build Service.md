@@ -11,3 +11,11 @@ Sebuah source code sederhana yang telah saya sediakan.</p> <img src="https://git
 
 <p>Sebagai bahan uji coba kita akan membuat sebuah aplikasi mobile yang akan berjalan diplatform iOS dan Android, proses kompilasinya sendiri akan menggunakan layanan cloud milik adobe. Silahkan buka folder <strong>source-code-sample</strong> didalamnya terdapat sebuah file bernama <strong>Hello World.zip</strong>. Dibawah ini adalah Struktur dari source code Hello World:</p>
 <img src="https://github.com/PUSRISTEK/Learning-PhoneGap/blob/master/image/phonegap-structure-project.JPG"></img>
+
+<p>Perhatikan pada path atau folder www <strong>"...\Hello World\phonegap-start-master\phonegap-start-master\www"</strong> Sebuah tempat yang akan menjadi tempat bermain kita. Didalamnya terdapat file index.html jika kita buka menggunakan notepad++ maka kita bisa melihat sourcenya :</p>
+<img src="https://github.com/PUSRISTEK/Learning-PhoneGap/blob/master/image/phonegap-index.JPG"></img>
+
+<p>Paca code line 36 dan 37 Anda bisa mengubahnya sesuai keinginan anda, setelah itu compress kedalam file zip dan upload ke layanan adobe phonegap build service. Jika berhasil maka akan muncul seperti gambar dibawah ini :</p>
+<img src="https://github.com/PUSRISTEK/Learning-PhoneGap/blob/master/image/phonegap-hello.JPG"></img>
+
+<p>Cukup scan dengan QR Code dengan device android maka perintah untuk instalasi aplikasi akan muncul.</p>
