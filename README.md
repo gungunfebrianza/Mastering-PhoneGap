@@ -3,7 +3,7 @@
 Learning PhoneGap From Zero To Hero
 <ol>
 <li>Chapter-1 - <a href="https://github.com/PUSRISTEK/Learning-PhoneGap/blob/master/Chapter1-Apa%20itu%20PhoneGap.md">Apa Itu PhoneGap?</a></li>
-<li>Chapter-2 -</li>
+<li>Chapter-2 -<a href="https://github.com/PUSRISTEK/Learning-PhoneGap/blob/master/Chapter2-Set%20Up%20Adobe%20Build%20Service.md">Set Up Adobe Build Service</a></li>
 <li>Chapter-3 -</li>
 <li>Chapter-4 -</li>
 <li>Chapter-5 -</li>
