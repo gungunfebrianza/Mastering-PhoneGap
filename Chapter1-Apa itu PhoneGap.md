@@ -74,7 +74,27 @@ untuk render sebuah image, post image sebagai sebuah data ke kesebuah remote ser
 <p>Karena kita sudah menggunakan HTML5 kita bisa menggunakan SQLite untuk menyimpan data secara lokal yang selanjutnya bisa kita gunakan untuk melakukan singkronisasi data antara device dengan remote database. Mobile Application yang kita buat bisa menggunakan AJAX untuk memanggil data tertentu dalam sebuah remote database kemudian memanfaatkan JSON untuk mengirim dan menyimpanya kedalam SQLite didevice yang kita miliki.</p>
 
 <h3>Quick Overview of The API</h3>
-<p></p>
+<p>Di bawah ini adalah beberapa API yang dimiliki oleh PhoneGap :</p>
+<ul>
+<li>Accelerometer, untuk berinteraksi dengan device motion sensor.</li>
+<li>Camera, untuk capture photo menggunakan device camera.</li>
+<li>Capture, untuk capture file media.</li>
+<li>Compass, untuk berinteraksi dengan kompas.</li>
+<li>Connection, untuk cek status koneksi ke jaringan Wifi atau Cellular Network.</li>
+<li>Contacts, untuk berinteraksi dengan contact pada database device.</li>
+<li>Device, untuk mendapatkan informasi device.</li>
+<li>Event, untuk melakukan hook native event melalui javascript.</li>
+<li>File, untuk melakukan hook native filesystem melalui javascript.</li>
+<li>Geolocation, untuk mengetahui posisi device berada.</li>
+<li>Media, untuk merekam dan memulai audio/video file.</li>
+<li>Network, untuk cek koneksi kejaringan wifi.</li>
+<li>Notification, untuk berinteraksi menggunakan notifikasi pada device.</li>
+<li>Storage, untuk melakukan hook native device storage.</li>
+</ul>
+
+<h3>Mobile Design Issues</h3>
+<p>Sedikit penekanan bahwa menciptakan mobile application dengan phonegap bukan berarti kemampuanya hanya sebatas bermain dengan API PhoneGap saja. Kita akan membuat mobile application menggunakan HTML 5, CSS dan Javascript. Selanjutnya kita akan menggunakan beberapa framework javascript lainya untuk melakukan desain User Interface seperti jQuery, jQTouch, Xuljs dan masih banyak lagi.</p>
+
 
 <h3>Build & Testing PhoneGap Application</h3>
 <p>[API] Application Programming Interface milik PhoneGap didesain agar bisa berkomunikasi dengan hardware dalam sebuah mobile device. Ada banyak sekali cara untuk membangun dan menguji aplikasi phonegap yang kita buat. Kabar bagusnya adalah kita cukup menggunakan satu codebase saja untuk membuat sebuah package yang bisa digunakan disetiap platform. 
