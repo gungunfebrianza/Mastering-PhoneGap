@@ -68,3 +68,41 @@ function onResume(){
 </body>
 </html>
 ```
+
+<H3>Understanding Event Type</h3>
+<p>Sekarang kita akan mengkaji lebih detail tentang tipe tipe yang dimiliki oleh sebuah event.</p>
+
+<h4>backbutton</h4>
+<p>backbutton event akan dieksekusi saat user menekan tombol back pada android device. Untuk mendeteksi event ini simpan didalam event listener seperti pada code dibawah ini :</p>
+
+```javascript
+document.addEventListener(“backbutton”, onBackButton, false);
+function onBackButton(){
+//handle the back button
+}
+```
+
+<p>Seperti yang telah kita pelajari sebelumnya agar event ini dieksekusi dia harus berada didalam fungsi onDeviceReady() seperti pada code dibawah ini :</p>
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>PhoneGap backbutton Example</title>
+<script type=”text/javascript” charset=”utf-8” src=”phonegap.js”></script>
+<script type=”text/javascript” charset=”utf-8”>
+document.addEventListener(“deviceready”, onDeviceReady, false);
+function onDeviceReady() {
+// Register the event listener
+document.addEventListener(“backbutton”, onBackButton, false);
+}
+// Handle the back button
+//
+function onBackButton() {
+}
+</script>
+</head>
+<body>
+</body>
+</html>
+```
