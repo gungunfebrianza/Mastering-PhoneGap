@@ -23,6 +23,7 @@ Sesaat DOM (document object model) telah dimuat begitu juga dengan PhoneGap API 
 <h3>Using The Event Listener</h3>
 <p>Untuk menggunakan suatu event kita memerlukan <strong>event listener</strong> sebagai contoh jika kita ingin mendeteksi event <strong>onDeviceReady</strong> maka kita perhatikan code dibawah ini : </p>
 
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -33,6 +34,33 @@ Sesaat DOM (document object model) telah dimuat begitu juga dengan PhoneGap API 
 document.addEventListener(“deviceready”, onDeviceReady, false);
 function onDeviceReady() {
 // call the phonegap api
+}
+</script>
+</head>
+<body>
+</body>
+</html>
+```
+
+<p>Pada code diatas kita melampirkan sebuah event listener dengan statement <strong>document.addEventListener</strong> sehingga ketika event listener sudah berada dalam state siap (deviceready) ini artinya DOM HTML telah dimuat, selanjutnya kita akan menggunakan pemisah listener untuk setiap event yang akan kita buat. Seluruh <strong>event listener</strong> akan disimpan didalam fungsi <b>onDeviceReady()</b> sebagai contoh jika kita ingin mendeteksi event <b>pause</b> dan <b>resume</b> event listener harus
+disimpan didalam fungsi onDeviceReady() seperti pada code dibawah ini :</p>
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<title>PhoneGap Device Ready Example</title>
+<script type=”text/javascript” charset=”utf-8” src=”phonegap.js”></script>
+<script type=”text/javascript” charset=”utf-8”>
+document.addEventListener(“deviceready”, onDeviceReady, false);
+function onDeviceReady() {
+// call the phonegap api
+document.addEventListener(“pause”, onPause, false);
+document.addEventListener(“resume”, onResume, false);
+}
+function onPause(){
+}
+function onResume(){
 }
 </script>
 </head>
