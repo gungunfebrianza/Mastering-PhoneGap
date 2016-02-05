@@ -111,4 +111,16 @@ sebelum kita menggunakan Adobe PhoneGap Build Service selanjutnya kita akan mela
 <p>Kita membutuhkan PhoneGap Dekstop Application yang menyediakan layanan drag and drop untuk membuat sebuah phonegap application. Ini hanya sebagai alternatif bagi mereka yang menginginkan pengembangan mobile aplikasi secara visual, meskipun begitu kita tetap bisa menggunakan phonegap command line interface untuk membuat mobile application.</p>
 <p>Untuk OS Windows silahkan download disini :</p>
 <p><a href="https://github.com/phonegap/phonegap-app-desktop/releases/download/0.2.1/PhoneGapSetup-win32.exe">Download</a></p>
-<p>Download dan lakukan instalasi sampai selesai.</p>
+<p>Download dan lakukan instalasi sampai selesai. Kemudian ada beberapa lagi yang harus kita instal yaitu :</p>
+
+<ul>
+<li>Python Versi 2.7 - <a href="https://www.python.org/download/releases/2.7/">Download</a></li>
+<li>Git - <a href="http://git-scm.com/downloads">Download</a></li>
+<li>Node.js - <a href="https://nodejs.org/en/download/">Download</li>
+</ul>
+
+Jika sudah kita akan melakukan instalasi Cordova :
+
+```
+npm install -g cordova
+```
