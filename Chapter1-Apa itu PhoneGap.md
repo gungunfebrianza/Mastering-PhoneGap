@@ -116,7 +116,7 @@ sebelum kita menggunakan Adobe PhoneGap Build Service selanjutnya kita akan mela
 <ul>
 <li>Python Versi 2.7 - <a href="https://www.python.org/download/releases/2.7/">Download</a></li>
 <li>Git - <a href="http://git-scm.com/downloads">Download</a></li>
-<li>Node.js - <a href="https://nodejs.org/en/download/">Download</li>
+<li>Node.js - <a href="https://nodejs.org/en/download/">Download</a></li>
 </ul>
 
 Jika sudah kita akan melakukan instalasi Cordova :
