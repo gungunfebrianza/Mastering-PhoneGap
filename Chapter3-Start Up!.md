@@ -82,3 +82,22 @@ $LAB
 .script("init.js").wait();
 </script>
 ```
+
+<p>Meskipun tidak terlihat jauh perbedaanya namun secara optimisi menggunakan LABjs lebih efisien untuk memuat javascript
+sebab LABjs memiliki <b>method wait()</b>.</p>
+
+<h3>Command-Line Interface Tools</h3>
+<p>Dengan CLI kita bisa berkomunikasi dengan mesin menggunakan <b>commands</b> yang telah disediakan secara interaktif secara <b>console</b></p>
+
+<h3>Creating New PhoneGap Application</h3>
+<p>Sekarang kita akan membuat sebuah PhoneGap Application, pada CLI kita hanya tinggal menggunakan perintah <b>create</b>. Sebelum memulai 
+Cari lokasi Current Directory yang akan dijadikan tempat untuk membuat project. Misalkan kita akan membuatnya di drive C, maka perintah yang akan
+kita gunakan dalam command line adalah : </p>
+
+```
+cd C:\
+```
+<p>Selanjutnya kita akan menggunakan command dibawah ini untuk membuat sebuah aplikasi sederhana</p>
+```
+phonegap create HelloWorld
+```
